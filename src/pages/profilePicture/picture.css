@@ -1,0 +1,91 @@
+/* App.css */
+    .form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    background-size: cover;
+    background-position: center;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    background-image: url('default-placeholder.png');
+    background-repeat: no-repeat;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #e91e63;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #d81b60;
+  }
+  
+  small {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+  }
+  
+  #error-message,
+  #error-message-additional {
+    color: red;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
